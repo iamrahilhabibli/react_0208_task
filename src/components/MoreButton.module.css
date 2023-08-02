@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 12px;
+  transition: border-color 0.3s ease-in-out;
 }
 
 .btnLink {
@@ -16,7 +17,14 @@
   font-size: 15px;
   padding: 0 18px;
 }
+.moreBtn:hover {
+  border-color: orange; /* add this */
+}
 
 .orangeArrow {
   padding: 0 25px 0px 50px;
+  transition: transform 0.3s ease-in-out;
+}
+.moreBtn:hover .orangeArrow {
+  transform: translateX(10px);
 }
