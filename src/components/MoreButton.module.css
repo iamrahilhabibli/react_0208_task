@@ -1,0 +1,7 @@
+.moreBtn {
+  height: 60px;
+  background-color: transparent;
+  border-color: lightgrey;
+  padding: 0px 50px;
+  border-radius: 12px;
+}
