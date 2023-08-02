@@ -9,18 +9,21 @@ export function Main() {
   const cardData = [
     {
       image: imageOne,
-      title: "title1",
-      description: "description1",
+      title: "AI & ML based Scoring",
+      description:
+        "We determine the credit-worthiness of each client, using behavioral scoring model.",
     },
     {
       image: imageTwo,
-      title: "title2",
-      description: "description2",
+      title: "Micro-lending Technology",
+      description:
+        "We deliver microlending solution which includes processing, disbursement, repayment, recovery and management of loans.",
     },
     {
       image: imageThree,
-      title: "title3",
-      description: "description3",
+      title: "Big Data Engine",
+      description:
+        "We use latest advancements in Artificial Intelligence and Machine Learning to maximize our value proposition.",
     },
   ];
 

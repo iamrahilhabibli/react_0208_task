@@ -5,8 +5,8 @@ export function Card(props) {
   return (
     <div className={card.cardContainer}>
       <img className={card.cardImages} src={props.image} alt="" />
-      <h3>{props.title}</h3>
-      <p>{props.description}</p>
+      <h3 className={card.cardTitle}>{props.title}</h3>
+      <p className={card.cardDescription}>{props.description}</p>
     </div>
   );
 }
