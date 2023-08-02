@@ -1,21 +1,24 @@
 import React from "react";
-import { Card } from "./Card";
 import main from "./Main.module.css";
 import { Cards } from "./Cards";
+import imageOne from "../../images/1.svg";
+import imageTwo from "../../images/2.svg";
+import imageThree from "../../images/3.svg";
+
 export function Main() {
   const cardData = [
     {
-      image: "image1",
+      image: imageOne,
       title: "title1",
       description: "description1",
     },
     {
-      image: "image2",
+      image: imageTwo,
       title: "title2",
       description: "description2",
     },
     {
-      image: "image3",
+      image: imageThree,
       title: "title3",
       description: "description3",
     },

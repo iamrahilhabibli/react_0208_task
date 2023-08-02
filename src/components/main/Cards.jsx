@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "./Card";
 export function Cards(props) {
   return (
-    <div>
+    <>
       <Card
         image={props.data[0].image}
         title={props.data[0].title}
@@ -18,6 +18,6 @@ export function Cards(props) {
         title={props.data[2].title}
         description={props.data[2].description}
       />
-    </div>
+    </>
   );
 }
