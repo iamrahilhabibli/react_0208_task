@@ -4,8 +4,14 @@
   border: 1px solid lightgray;
   display: flex;
   flex-direction: column;
+  border-radius: 6px;
+  transition: transform 0.3s ease-in-out;
   align-items: center;
 }
+.cardContainer:hover {
+  transform: scale(1.05);
+}
+
 .cardImages {
   height: 200px;
   width: 100%;
